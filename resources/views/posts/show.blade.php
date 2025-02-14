@@ -1,4 +1,4 @@
-@vite(['resources/sass/style.scss', 'resources/sass/blog.scss'])
+@vite(['resources/sass/blog.scss'])
 
 <x-layout.main>
     <body class="post">
