@@ -8,10 +8,10 @@
                 <div>
                     <img src='{{ $post['image'] }}'>
                 </div>
-                <div style="margin-right: 95px;">
+                <div style="margin-right: {{ $post['RightMargin'] }}px;">
                     <h2>{{ $post['title'] }}</h2>
                     <p>{{ $post['summary'] }}</p>
-                    <a href={{ route($post['link']) }}>read more</a>
+                    <a href={{ route('posts.show', $post->id) }}>read more</a>
                 </div>
             </div>
         @endforeach

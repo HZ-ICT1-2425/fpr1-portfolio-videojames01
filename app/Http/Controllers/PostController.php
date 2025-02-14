@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\blogpost;
+use App\Models\Post;
 use Illuminate\Http\Request;
 
-class BlogController extends Controller
+class PostController extends Controller
 {
     public function index()
     {
-        $posts = blogpost:: all();
+        $posts = Post::all();
         return view('blog', compact('posts'));
     }
 
-    public function show(blogpost $post)
+    public function show(Post $post)
     {
         return view('posts.show', [
             'post' => $post
