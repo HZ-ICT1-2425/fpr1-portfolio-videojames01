@@ -16,14 +16,7 @@ Route::get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
-
-Route::get('/study-choice', function () {
-    return view('study-choice');
-})->name('study-choice');
-
-Route::get('/swot-analysis', function () {
-    return view('swot-analysis');
-})->name('swot-analysis');
+Route::get('blog/{post}', [BlogController::class, 'show'])->name('posts.show');
 
 Route::get('/faq', function () {
     return view('faq');
