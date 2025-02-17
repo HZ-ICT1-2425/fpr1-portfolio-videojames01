@@ -16,7 +16,7 @@
         <li><a href={{ route('home') }}>Home</a></li>
         <li><a href={{ route('profile') }}>Profile</a></li>
         <li><a href={{ route('dashboard') }}>Dashboard</a></li>
-        <li><a href={{ route('blog') }}>Blog</a></li>
+        <li><a href={{ route('posts.index') }}>Blog</a></li>
         <li><a href={{ route('faq') }}>FAQ</a></li>
     </ul>
 </nav>
