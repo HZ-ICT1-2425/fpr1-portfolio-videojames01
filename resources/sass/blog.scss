@@ -49,3 +49,16 @@ img {
     margin-left: 20px;
     margin-right: 5px;
 }
+
+/* Button */
+.button {
+    position: absolute;
+    z-index: 2;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: rgb(121, 185, 211);;
+    color: whitesmoke;
+    border-radius: 10px;
+}

@@ -7,7 +7,7 @@
         </header>
         <main>
             <p>
-                {{ $post['content'] }}
+                {{ $post['body'] }}
             </p>
         </main>
     </body>
