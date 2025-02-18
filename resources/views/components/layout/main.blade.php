@@ -9,7 +9,7 @@
     {{-- Compiled assets --}}
     @vite(['resources/sass/style.scss', 'resources/js/app.js'])
 </head>
-<body>
+<body class="home">
 {{-- Navigation bar --}}
 <nav class="navbar">
     <ul>
