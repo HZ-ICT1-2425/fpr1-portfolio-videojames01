@@ -1,4 +1,8 @@
 {
+  "public/images/coding.jpg": {
+    "file": "assets/coding-BZ8h5XP7.jpg",
+    "src": "public/images/coding.jpg"
+  },
   "resources/js/app.js": {
     "file": "assets/app-Xaw6OIO1.js",
     "name": "app",
@@ -6,7 +10,7 @@
     "isEntry": true
   },
   "resources/sass/blog.scss": {
-    "file": "assets/blog-pah8dti5.css",
+    "file": "assets/blog-SGS2EkAK.css",
     "src": "resources/sass/blog.scss",
     "isEntry": true
   },
@@ -21,7 +25,7 @@
     "isEntry": true
   },
   "resources/sass/index.scss": {
-    "file": "assets/index-xKp5Tr0t.css",
+    "file": "assets/index-BklLo2Kr.css",
     "src": "resources/sass/index.scss",
     "isEntry": true
   },
