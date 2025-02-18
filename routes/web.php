@@ -21,3 +21,4 @@ Route::get('posts/{post}', [PostController::class, 'show'])->name('posts.show');
 Route::get('/faq', function () {
     return view('faq');
 })->name('faq');
+
