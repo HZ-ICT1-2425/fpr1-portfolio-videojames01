@@ -8,12 +8,12 @@
                 <input type="text" name="title" placeholder="Enter the post's title...">
             </div>
             <div class="field">
-                <label for="slug" class="label">Summary</label>
-                <input type="text" name="slug" placeholder="Enter the post's summary...">
+                <label for="summary" class="label">Summary</label>
+                <input type="text" name="summary" placeholder="Enter the post's summary...">
             </div>
             <div class="field">
                 <label for="body" class="label">Content</label>
-                <input type="text" name="body" placeholder="Enter the post's content...">
+                <textarea name="body" placeholder="Enter the post's content..." rows="10" cols="70"></textarea>
             </div>
             <div>
                 <button type="submit" class="button is-primary">Save</button>

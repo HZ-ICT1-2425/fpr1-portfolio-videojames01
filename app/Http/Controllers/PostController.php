@@ -4,12 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::orderBy('created_at', 'desc')->get();
         return view('posts.index', compact('posts'));
     }
 
@@ -29,9 +30,11 @@ class PostController extends Controller
     {
         $validated = $request->validate([
             'title' => 'required|string|min:10',
-            'slug' => 'required|string|min:10',
+            'summary' => 'required|string|min:10',
             'body' => 'required|string|min:10'
             ]);
+
+        $validated['slug'] = Str::slug($validated['title']);
 
         $post = new Post($validated);
 
