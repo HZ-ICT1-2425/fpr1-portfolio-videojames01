@@ -10,5 +10,6 @@
                 {{ $post['body'] }}
             </p>
         </main>
+    <a href="{{ route('posts.edit', $post->slug) }}">Edit</a>
     </body>
 </x-layout.main>

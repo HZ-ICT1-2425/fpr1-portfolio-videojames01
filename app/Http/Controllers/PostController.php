@@ -42,4 +42,31 @@ class PostController extends Controller
 
         return redirect()->route('posts.index');
     }
+
+    public function edit(Post $post)
+    {
+        return view('posts.edit', [
+            'post' => $post
+        ]);
+    }
+
+    public function update(Request $request, Post $post)
+    {
+        $request->validate([
+            'title' => 'required|string|min:10',
+            'summary' => 'required|string|min:10',
+            'body' => 'required|string|min:10'
+        ]);
+
+        $post->update($request->all());
+
+        return redirect()->route('posts.index');
+    }
+
+    public function destroy(Post $post)
+    {
+        $post->delete();
+
+        return redirect()->route('posts.index');
+    }
 }
