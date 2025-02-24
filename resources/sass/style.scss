@@ -11,6 +11,12 @@ h1 {
 }
 
 /* Navigation bar */
+.navbar {
+    position: sticky;
+    top: 8px;
+    z-index: 2;
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -52,6 +58,8 @@ h1 {
 }
 
 #hz-logo {
+    position: sticky;
+    top: 17px;
     width: 2%;
     height: 5%;
     float: right;
@@ -71,4 +79,24 @@ footer {
 footer p {
     margin: 0;
     font-size: 15px;
+}
+
+/* Button */
+.button {
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 85%;
+    font-size: 25px;
+    background-color: rgb(121, 185, 211);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    color: rgb(121, 185, 211);
 }
