@@ -17,9 +17,9 @@ Route::get('/dashboard', function () {
 })->name('dashboard');
 
 // Routes for blog posts
-Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
-Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
-Route::get('/posts/{post:slug}', [PostController::class, 'show'])->name('posts.show');
-Route::post('/posts/store', [PostController::class, 'store'])->name('posts.store');
+Route::resource('posts', PostController::class);
 
-Route::get('/faq', [FaqController::class, 'index'])->name('faq');
+// Routes for faqs
+Route::get('/faqs', [FaqController::class, 'index'])->name('faqs.index');
+Route::get('/faqs/create', [FaqController::class, 'create'])->name('faqs.create');
+Route::post('/faqs/store', [FaqController::class, 'store'])->name('faqs.store');

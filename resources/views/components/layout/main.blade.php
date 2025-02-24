@@ -17,7 +17,7 @@
         <li><a href={{ route('profile') }}>Profile</a></li>
         <li><a href={{ route('dashboard') }}>Dashboard</a></li>
         <li><a href={{ route('posts.index') }}>Blog</a></li>
-        <li><a href={{ route('faq') }}>FAQ</a></li>
+        <li><a href={{ route('faqs.index') }}>FAQ</a></li>
     </ul>
 </nav>
 <a href="https://hz.nl/en/" target="_blank"><img src="/images/hz-logo.png" alt="HZ logo" id="hz-logo"></a>

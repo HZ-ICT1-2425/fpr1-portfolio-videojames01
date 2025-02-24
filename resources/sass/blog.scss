@@ -35,22 +35,3 @@
     font-size: 30px;
     margin-left: 25px;
 }
-
-/* Button */
-.button {
-    position: sticky;
-    top: 70px;
-    z-index: 2;
-    text-decoration: none;
-    margin-top: 25px;
-    margin-left: 20px;
-    font-size: 25px;
-    background-color: rgb(121, 185, 211);
-    color: whitesmoke;
-    border-radius: 10px;
-}
-
-.button:hover {
-    background-color: whitesmoke;
-    color: rgb(121, 185, 211);
-}
