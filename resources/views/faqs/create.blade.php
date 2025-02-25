@@ -5,14 +5,14 @@
             <h2>Create a new question</h2>
             <div class="field">
                 <label for="question" class="label">Question</label>
-                <input type="text" name="question" placeholder="Enter the question..." value="{{ old('question') }}">
+                <textarea name="question" placeholder="Enter the question..." rows="2" cols="50">{{ old('question') }}</textarea>
                 @error('question')
                 <div class="error">{{ $message }}</div>
                 @enderror
             </div>
             <div class="field">
                 <label for="answer" class="label">Answer</label>
-                <input type="text" name="answer" placeholder="Enter the answer..." value="{{ old('answer') }}">
+                <textarea name="answer" placeholder="Enter the answer..." rows="10" cols="50">{{ old('answer') }}</textarea>
                 @error('answer')
                 <div class="error">{{ $message }}</div>
                 @enderror
