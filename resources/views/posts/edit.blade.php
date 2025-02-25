@@ -2,7 +2,7 @@
     <form action="{{ route('posts.update', $post) }}" method="POST">
         @csrf
         @method('PATCH')
-        <h1 class="title is-4">Edit Blog Post {{ $post->id }}</h1>
+        <h2>Edit {{ $post->title }}</h2>
         <div class="field">
             <label for="title" class="label">Title</label>
             <input type="text" name="title" placeholder="Enter the post's title..." value ="{{ old('title', $post) }}">
