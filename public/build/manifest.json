@@ -1,35 +1,7 @@
 {
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
-    "file": "assets/fa-brands-400-D1LuMI3I.ttf",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
-  },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
-    "file": "assets/fa-brands-400-D_cYUPeE.woff2",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
-  },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
-    "file": "assets/fa-regular-400-DZaxPHgR.ttf",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
-  },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
-    "file": "assets/fa-regular-400-BjRzuEpd.woff2",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
-  },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
-    "file": "assets/fa-solid-900-D0aA9rwL.ttf",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
-  },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
-    "file": "assets/fa-solid-900-CTAAxXor.woff2",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
-  },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
-    "file": "assets/fa-v4compatibility-CCth-dXg.ttf",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
-  },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
-    "file": "assets/fa-v4compatibility-C9RhG_FT.woff2",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  "public/images/coding.jpg": {
+    "file": "assets/coding-BZ8h5XP7.jpg",
+    "src": "public/images/coding.jpg"
   },
   "resources/js/app.js": {
     "file": "assets/app-Xaw6OIO1.js",
@@ -37,9 +9,34 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
-  "resources/sass/app.scss": {
-    "file": "assets/app-C4OpWrBn.css",
-    "src": "resources/sass/app.scss",
+  "resources/sass/blog.scss": {
+    "file": "assets/blog-C95yB_RF.css",
+    "src": "resources/sass/blog.scss",
+    "isEntry": true
+  },
+  "resources/sass/dashboard.scss": {
+    "file": "assets/dashboard-DwvLBfxz.css",
+    "src": "resources/sass/dashboard.scss",
+    "isEntry": true
+  },
+  "resources/sass/faq.scss": {
+    "file": "assets/faq-B6hNCV6K.css",
+    "src": "resources/sass/faq.scss",
+    "isEntry": true
+  },
+  "resources/sass/index.scss": {
+    "file": "assets/index-BklLo2Kr.css",
+    "src": "resources/sass/index.scss",
+    "isEntry": true
+  },
+  "resources/sass/profile.scss": {
+    "file": "assets/profile-BScunqPM.css",
+    "src": "resources/sass/profile.scss",
+    "isEntry": true
+  },
+  "resources/sass/style.scss": {
+    "file": "assets/style-D0x1ukdo.css",
+    "src": "resources/sass/style.scss",
     "isEntry": true
   }
 }
