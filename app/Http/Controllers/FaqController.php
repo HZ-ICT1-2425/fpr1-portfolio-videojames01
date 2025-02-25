@@ -23,7 +23,7 @@ class FaqController extends Controller
         $validated = $request ->validate([
             'question' => 'required|string|min:10',
                 'answer' => 'required|string|min:10',
-                'link' => 'url'
+                'link' => 'nullable|url'
             ]);
 
         $faq = new Faq($validated);
@@ -31,5 +31,32 @@ class FaqController extends Controller
         $faq->save();
 
         return redirect()->route('faqs.index');
+    }
+
+    public function edit(Faq $faq)
+    {
+        return view('faqs.edit', [
+            'faq' => $faq
+        ]);
+    }
+
+    public function update(Request $request, Faq $faq)
+    {
+        $request->validate([
+            'question' => 'required|string|min:10',
+            'answer' => 'required|string|min:10',
+            'link' => 'nullable|url'
+        ]);
+
+        $faq->update($request->all());
+
+        return redirect(route('faqs.index'));
+    }
+
+    public function destroy(Faq $faq)
+    {
+        $faq->delete();
+
+        return redirect(route('faqs.index'));
     }
 }
